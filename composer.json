@@ -1,0 +1,29 @@
+{
+    "name": "graychen/urlscanner",
+    "description": "Scan URLs From A csv File and report inaccessible urls",
+    "keywords":["url","scanner","csv"],
+    "homepage": "http://graychen.git.io",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "graychen",
+            "email": "455803034@qq.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "php": ">=5.4.0",
+        "guzzlehttp/guzzle": "~5.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "~4.3"
+    },
+    "suggest": {
+        "league/csv": "~6.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "GrayChen\\UrlScanner\\":"src/"
+        }
+    }
+}
